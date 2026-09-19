@@ -1,15 +1,8 @@
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <>
-      <section>
-        <h1>Hello World</h1>
-      </section>
-
-      <div className="ticks"></div>
-    </>
-  );
+  return <Home />;
 }
 
 export default App;

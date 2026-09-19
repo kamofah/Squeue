@@ -1,0 +1,56 @@
+body {
+  background: #F5F7F8;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+}
+
+.text-display {
+  letter-spacing: -0.2rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.2;
+}
+
+.text-heading {
+  letter-spacing: -0.2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.2;
+}
+
+.text-body {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 70%;
+  color: #6c757d;
+  letter-spacing: -0.8px;
+}
+
+.text-eyebrow {
+  color: #6c757d;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.text-label {
+  font-weight: bold;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+
+.underline-highlight {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-color: #C6AAFB;
+  text-decoration-thickness: 12px;
+  text-underline-offset: -6px;
+}
