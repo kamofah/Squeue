@@ -1,0 +1,143 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.demo {
+    gap: 2rem;
+    background: #f0f0f0;
+}
+
+.demoContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.demoCaption {
+    width: 100%;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.liveResultsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+}
+
+.qrCodeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.qrCode {
+    width: fit-content;
+    justify-content: center;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.liveResultsHeader {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.liveResultsBarContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.votingCount {
+    font-size: 0.9rem;
+    letter-spacing: -0.8px;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.separator {
+    height: 1px;
+    width: 100%;
+    background: #ced4da;
+}
+
+.typesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+.typesGrid > * {
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 1rem;
+}
+
+.typesGrid > *:nth-child(2n) {
+    border-right: none;
+}
+
+.typesGrid > *:nth-last-child(-n+2) {
+    border-bottom: none;
+}
+
+.typeCardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.typeCardIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: #F1E9FF;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: #f0f0f0;
+}
+
+.typesContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.typeCardArrow {
+    display: flex;
+    align-items: flex-;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+    height: 20px;
+
+}
+
+.typeCardDescription {
+    font-size: 0.8rem;
+    width: 100%;
+    height: 50px;
+}
