@@ -1,0 +1,27 @@
+.progressBarContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .progressBarHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .progressBar {
+    height: 10px;
+    background: #ced4da;
+    border-radius: 12px;
+  }
+  
+  .progressBarFill {
+    height: 100%;
+    background: repeating-linear-gradient(
+      -45deg,
+      #8F6BFD 0px,
+      #A88BFF 5px,
+      #8F6BFD 10px
+    );
+    border-radius: 12px;
+  }
